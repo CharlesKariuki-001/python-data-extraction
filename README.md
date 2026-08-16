@@ -1,4 +1,3 @@
-@"
 # Python Dynamic Data Extraction
 
 A practical Python automation project for extracting structured data from modern JavaScript-rendered websites.
