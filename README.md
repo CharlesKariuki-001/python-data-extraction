@@ -80,7 +80,7 @@ Tests cover: selector reliability, handling of missing fields, empty-result page
 
 ## Limitations
 
-- Built and tested against publicly accessible pages. It does not attempt to bypass logins, CAPTCHAs, or any access control — see the Responsible Use note below.
+- Built and tested against publicly accessible pages. It does not attempt to bypass logins, CAPTCHAs, or any access control see the Responsible Use note below.
 - Site structures change over time; selectors may need updating if a target site redesigns its layout.
 - Rate limiting and request pacing should be configured appropriately for the target site's terms.
 
