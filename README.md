@@ -94,6 +94,6 @@ Building this reinforced that the hard part of scraping usually isn't "get the H
 
 ## Need This Built for Your Workflow?
 
-If you have a website you need structured, reliable data from — get in touch. I scope the job first (confirm the fields, check the site structure), then give a fixed price and delivery timeline.
+If you have a website you need structured, reliable data from get in touch. I scope the job first (confirm the fields, check the site structure), then give a fixed price and delivery timeline.
 
 📬 [LinkedIn](https://ke.linkedin.com/in/charles-mburu-838965382) · [X](https://x.com/KariukiBuilds__)
