@@ -25,3 +25,25 @@ Anyone who needs structured data from a website that:
 - **Retry logic** — handles timeouts and temporary network issues without losing the whole run
 
 ## Architecture
+
+Target URL
+
+↓
+
+Playwright (render page, wait for content)
+
+↓
+
+Extract fields (selectors)
+
+↓
+
+Validate (check required fields, types, duplicates)
+
+↓
+
+Structured output (CSV / JSON)
+
+↓
+
+Log (successes, failures, skipped records)
