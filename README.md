@@ -76,7 +76,7 @@ Product B,$24.50,Out of Stock
 pytest
 ```
 
-Tests cover: selector reliability, handling of missing fields, empty-result pages, and malformed HTML — not just the "happy path" where everything works perfectly.
+Tests cover: selector reliability, handling of missing fields, empty-result pages, and malformed HTML not just the "happy path" where everything works perfectly.
 
 ## Limitations
 
@@ -90,7 +90,7 @@ This project extracts data only from public or explicitly authorized sources. It
 
 ## What I Learned
 
-Building this reinforced that the hard part of scraping usually isn't "get the HTML" — it's handling the messy reality: pages that load slowly, elements that shift, and data that needs validating before you can trust it.
+Building this reinforced that the hard part of scraping usually isn't "get the HTML"  it's handling the messy reality: pages that load slowly, elements that shift, and data that needs validating before you can trust it.
 
 ## Need This Built for Your Workflow?
 
