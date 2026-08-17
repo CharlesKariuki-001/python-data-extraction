@@ -47,3 +47,53 @@ Structured output (CSV / JSON)
 ↓
 
 Log (successes, failures, skipped records)
+
+## Installation
+
+```bash
+git clone https://github.com/CharlesKariuki-001/python-data-extraction.git
+cd python-data-extraction
+python -m venv .venv
+source .venv/bin/activate      # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+playwright install
+```
+
+## Usage
+
+```bash
+python src/main.py --url "https://example.com/products" --output data/output.csv
+```
+
+Example output (`data/output.csv`):
+name,price,availability
+Product A,$19.99,In Stock
+Product B,$24.50,Out of Stock
+
+## Testing
+
+```bash
+pytest
+```
+
+Tests cover: selector reliability, handling of missing fields, empty-result pages, and malformed HTML — not just the "happy path" where everything works perfectly.
+
+## Limitations
+
+- Built and tested against publicly accessible pages. It does not attempt to bypass logins, CAPTCHAs, or any access control — see the Responsible Use note below.
+- Site structures change over time; selectors may need updating if a target site redesigns its layout.
+- Rate limiting and request pacing should be configured appropriately for the target site's terms.
+
+## Responsible Use
+
+This project extracts data only from public or explicitly authorized sources. It is **not** designed or intended to bypass authentication, CAPTCHAs, paywalls, or any other access control. For real client work, I always confirm the client has the right to request the data before starting.
+
+## What I Learned
+
+Building this reinforced that the hard part of scraping usually isn't "get the HTML" — it's handling the messy reality: pages that load slowly, elements that shift, and data that needs validating before you can trust it.
+
+## Need This Built for Your Workflow?
+
+If you have a website you need structured, reliable data from — get in touch. I scope the job first (confirm the fields, check the site structure), then give a fixed price and delivery timeline.
+
+📬 [LinkedIn](https://ke.linkedin.com/in/charles-mburu-838965382) · [X](https://x.com/KariukiBuilds__)
